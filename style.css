@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: "Mukta", sans-serif;
+}
+body {
+    overflow-x: hidden; 
+}
+
+.nav-item a{
+    font-weight: bold;
+    color: black;
+}
+.nav-item a:hover{
+    color: rgb(65, 125, 177);
+}
+
+
+/* home */
+
+#home {
+    background-image: url('https://en.idei.club/uploads/posts/2023-06/thumbs/1686528986_en-idei-club-p-computer-background-image-dizain-krasivo-25.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    padding: 50px;
+    color: white; 
+}
+
+
+#title h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#title p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+
+
+@media (max-width: 768px) {
+    #title h1 {
+        font-size: 2.5rem;
+    }
+
+    #title p {
+        font-size: 1rem;
+    }
+}
+
+
+/* Styling for the About Me section */
+#about-me {
+    
+    color: black; 
+    padding: 50px 0;
+    min-height: 60vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+
+#about-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+#about-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+    #about-heading {
+        font-size: 2.5rem;
+    }
+
+    #about-text {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+/* my projects */
+#my-projects h2 {
+    font-size: 3rem; 
+    font-weight: bold; 
+    color: #fff; 
+    margin-bottom: 20px;
+}
+
+
+
+
+#my-projects {
+    background-color: #333; 
+    color: white; 
+    padding: 40px 0;
+}
+
+
+#skillhead{
+    font-size: 3rem; 
+    font-weight: bold; 
+    color: black; 
+    margin-bottom: 20px;
+    
+}
+.bar-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px 0px;
+    margin: 8.5px;
+}
+.base-bar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 0px;
+}
+.bar-container span{
+    font-size: 20px;
+    font-weight: 800;
+}
+#html-bar{
+    background-color: rgb(65, 125, 177);
+    width: 95%;
+}
+#css-bar{
+    background-color:  rgb(65, 125, 177);
+    width: 88%;
+}
+#js-bar{
+    background-color:  rgb(65, 125, 177);
+    width: 80%;
+}
+#react-bar{
+    background-color:  rgb(65, 125, 177);
+    width: 40%;
+}
+#latex-bar{
+    background-color: rgb(65, 125, 177);
+    width: 95%;
+}
+#git-bar{
+    background-color:  rgb(65, 125, 177);
+    width: 50%;
+}
+#c-bar{
+    background-color:  rgb(65, 125, 177);
+    width: 85%;
+}
+#py-bar{
+    background-color: rgb(65, 125, 177);
+    width: 60%;
+}
+
+
+
+#logo {
+    animation: ring 2s infinite;
+    transform-origin: top center; /* Set the pivot point for rotation */
+}
+
+@keyframes ring {
+    0% { transform: rotate(0); }
+    10% { transform: rotate(15deg); }
+    20% { transform: rotate(-10deg); }
+    30% { transform: rotate(5deg); }
+    40% { transform: rotate(-5deg); }
+    50% { transform: rotate(3deg); }
+    60% { transform: rotate(-3deg); }
+    100% { transform: rotate(0); }
+}
+
+
+
+
+
+
